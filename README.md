@@ -14,6 +14,16 @@ Sitio web divulgativo sobre **sostenibilidad en los sectores productivos**: qué
 - Web en GitHub Pages: [Abrir sitio](https://shurafo451.github.io/ecosectores/)
 - Repositorio: [Abrir repositorio](https://github.com/Shurafo451/ecosectores)
 
+## Ver la web en local
+
+Si se abren los archivos con doble clic (`file:///...`), el vídeo de YouTube muestra el **error 153**. Para verla completa en el ordenador hay que servirla con un servidor local. Por ejemplo, desde la carpeta del proyecto:
+
+```
+python -m http.server 8000
+```
+
+y después abrir `http://localhost:8000/` en el navegador. También sirve la extensión Live Server de Visual Studio Code.
+
 ## Estructura del proyecto
 
 ```
@@ -86,6 +96,7 @@ El validador de RSS muestra una recomendación («Self reference doesn't match d
 2. **Coordenadas del mapa de imagen.** Las coordenadas de `area` se miden en píxeles sobre la imagen, así que tuve que crear la imagen con un tamaño fijo (900 × 400) y calcular cada zona: un rectángulo, un círculo (centro y radio) y un hexágono (seis vértices). Si la pantalla es más estrecha y la imagen se reduce, las zonas dejan de coincidir; por eso también hay enlaces de texto al artículo.
 3. **Errores y avisos de validación.** En el esquema del blog, las flechas `<--` no se pueden escribir tal cual dentro de `pre`, porque el `<` se interpreta como el inicio de una etiqueta; lo resolví escribiendo `&lt;--`. En el formulario, el validador avisó de que el atributo `inputmode` no es compatible con todos los navegadores, así que lo quité y usé `type="tel"` para el teléfono.
 4. **Encontrar un vídeo con licencia libre y subtítulos.** Necesitaba un vídeo que pudiera alojar en mi propio repositorio y que tuviera subtítulos en dos idiomas. Lo encontré en Wikimedia Commons (CC BY 3.0), pero pesaba 32 MB en 1080p, así que lo convertí a 480p en MP4 y WebM (unos 10 MB cada uno). Además, los subtítulos en español venían marcados como español de Latinoamérica (`es-419`); en el `track` usé `srclang="es"`.
+5. **Error 153 en el vídeo de YouTube.** Al abrir la galería con doble clic, el vídeo incrustado mostraba «Error de configuración del reproductor de vídeo (153)». YouTube exige saber desde qué web se incrusta el vídeo (la cabecera *Referer*), y un archivo abierto como `file://` no tiene dirección web. Lo resolví añadiendo `referrerpolicy="strict-origin-when-cross-origin"` al `iframe` y viendo la web en local con un servidor (`python -m http.server`). En GitHub Pages funciona sin hacer nada más.
 
 ## Decisiones técnicas
 
