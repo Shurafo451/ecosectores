@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tabla con las emisiones de gases de efecto invernadero de España en 2024 por sector productivo y actividad.">
+  <meta name="author" content="Samuel Hurtado Afonso">
+  <title>Datos: emisiones de gases de efecto invernadero por sector en 2024 | EcoSectores</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="alternate" type="application/rss+xml" title="Canal RSS de EcoSectores" href="rss.xml">
+</head>
+<body>
+  <header id="inicio">
+    <a href="index.html" title="Ir a la página de inicio de EcoSectores">
+      <img src="img/logo.svg" alt="Logotipo de EcoSectores: una hoja verde sobre un engranaje" width="80" height="80">
+    </a>
+    <p class="nombre-sitio">EcoSectores</p>
+    <p>Sostenibilidad en los sectores productivos</p>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html" title="Volver a la portada">Inicio</a></li>
+        <li><a href="blog.html" title="Artículo sobre cómo producir de forma sostenible">Blog</a></li>
+        <li><a href="tabla.html" class="actual" aria-current="page">Datos</a></li>
+        <li><a href="galeria.html" title="Imágenes, vídeo, audio y mapas">Galería</a></li>
+        <li><a href="formulario.html" title="Inscripción en las Jornadas de Producción Sostenible">Inscripción</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>¿Qué sectores emiten más gases de efecto invernadero?</h1>
+
+    <section id="introduccion">
+      <h2>Cómo leer la tabla</h2>
+      <p>
+        La tabla recoge las emisiones de gases de efecto invernadero (GEI) de España en 2024 según el inventario
+        oficial del Ministerio para la Transición Ecológica. Las actividades están agrupadas por
+        <strong>sector productivo</strong>: primario, secundario y terciario.
+      </p>
+      <ul>
+        <li>La columna <b>% del total</b> indica qué parte de todas las emisiones del país corresponde a cada actividad.</li>
+        <li>La columna <b>Variación frente a 2023</b> indica si sus emisiones subieron (signo +) o bajaron (signo −) respecto al año anterior.</li>
+        <li>La última columna propone una medida sostenible para reducir las emisiones de esa actividad.</li>
+      </ul>
+      <p>
+        El transporte y los edificios incluyen también los vehículos y las viviendas de los hogares, por eso el tercer grupo
+        se llama «Sector terciario y hogares».
+      </p>
+    </section>
+
+    <section id="datos">
+      <h2>Emisiones por actividad</h2>
+      <table>
+        <caption>Emisiones de gases de efecto invernadero en España por sector y actividad (año 2024)</caption>
+        <thead>
+          <tr>
+            <th scope="col" rowspan="2">Sector productivo</th>
+            <th scope="col" rowspan="2">Actividad</th>
+            <th scope="colgroup" colspan="2">Emisiones de GEI</th>
+            <th scope="col" rowspan="2">Medida sostenible</th>
+          </tr>
+          <tr>
+            <th scope="col">% del total</th>
+            <th scope="col">Variación frente a 2023</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="rowgroup" rowspan="2">Primario</th>
+            <th scope="row">Agricultura y ganadería</th>
+            <td>12,4&nbsp;%</td>
+            <td>+0,6&nbsp;% (sube)</td>
+            <td>Mejorar la gestión del estiércol y ajustar el abonado</td>
+          </tr>
+          <tr>
+            <th scope="row">Maquinaria agrícola, forestal y pesquera</th>
+            <td>3,4&nbsp;%</td>
+            <td>−0,2&nbsp;% (baja)</td>
+            <td>Renovar la maquinaria por modelos más eficientes</td>
+          </tr>
+          <tr>
+            <th scope="rowgroup" rowspan="4">Secundario</th>
+            <th scope="row">Industria (combustión y procesos)</th>
+            <td>17,9&nbsp;%</td>
+            <td>−3,5&nbsp;% (baja)</td>
+            <td>Eficiencia energética y electrificación de los procesos</td>
+          </tr>
+          <tr>
+            <th scope="row">Generación de electricidad</th>
+            <td>9,8&nbsp;%</td>
+            <td>−14,6&nbsp;% (baja)</td>
+            <td>Más energía renovable (56,8&nbsp;% de la electricidad en 2024)</td>
+          </tr>
+          <tr>
+            <th scope="row">Combustión en refinerías</th>
+            <td>3,7&nbsp;%</td>
+            <td>+3,0&nbsp;% (sube)</td>
+            <td>Combustibles renovables e hidrógeno verde</td>
+          </tr>
+          <tr>
+            <th scope="row">Gases fluorados (refrigeración)</th>
+            <td>1,7&nbsp;%</td>
+            <td>+15,4&nbsp;% (sube)</td>
+            <td>Refrigerantes naturales de bajo impacto</td>
+          </tr>
+          <tr>
+            <th scope="rowgroup" rowspan="3">Terciario y hogares</th>
+            <th scope="row">Transporte</th>
+            <td>33,7&nbsp;%</td>
+            <td>+3,1&nbsp;% (sube)</td>
+            <td>Transporte público eléctrico y ferrocarril de mercancías</td>
+          </tr>
+          <tr>
+            <th scope="row">Edificios residenciales, comerciales e institucionales</th>
+            <td>8,8&nbsp;%</td>
+            <td>+2,9&nbsp;% (sube)</td>
+            <td>Aislamiento y bombas de calor</td>
+          </tr>
+          <tr>
+            <th scope="row">Gestión de residuos</th>
+            <td>6,4&nbsp;%</td>
+            <td>−0,2&nbsp;% (baja)</td>
+            <td>Compostar la materia orgánica en lugar de llevarla al vertedero</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="2">Suma de las actividades de la tabla</th>
+            <td>97,8&nbsp;%</td>
+            <td colspan="2">El resto hasta el 100&nbsp;% son otras fuentes menores</td>
+          </tr>
+          <tr>
+            <td colspan="5">
+              Total nacional en 2024: 267,7 millones de toneladas de CO<sub>2</sub> equivalente (−0,8&nbsp;% frente a 2023).
+              Fuente: <a href="https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/sistema-espanol-de-inventario-sei-.html" title="Sistema Español de Inventario de Emisiones">MITECO, Inventario nacional de emisiones de GEI, edición 1990-2024</a>.
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section id="conclusiones">
+      <h2>Conclusiones</h2>
+      <p>
+        El <strong>sector terciario</strong> concentra la mayor parte de las emisiones por culpa del transporte,
+        que además sigue creciendo. En cambio, la <strong>generación de electricidad</strong> es la actividad que más
+        ha reducido sus emisiones, lo que demuestra que el cambio a las renovables funciona.
+      </p>
+      <p>
+        En el sector primario, las emisiones se mantienen casi estables. Puedes ver ejemplos de soluciones para cada
+        actividad en el <a href="blog.html#primario" title="Ir a la sección del sector primario del artículo">artículo del blog sobre producción sostenible</a>.
+      </p>
+      <p><a href="#datos" title="Volver a la tabla de esta página">Volver a la tabla</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>EcoSectores · Práctica de HTML5 del módulo <abbr title="Lenguajes de Marcas y Sistemas de Gestión de Información">LMSGI</abbr></p>
+    <p>Autoría: Samuel Hurtado Afonso · 1.º DAM · Año <time datetime="2026">2026</time></p>
+    <address>
+      Contacto: <a href="mailto:contacto@ecosectores.example">contacto@ecosectores.example</a>
+    </address>
+    <p>
+      <a href="rss.xml" title="Suscribirse a las novedades de EcoSectores">Canal RSS de EcoSectores</a> ·
+      <a href="#inicio" title="Subir al principio de esta página">Volver al principio</a>
+    </p>
+  </footer>
+</body>
+</html>
