@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EcoSectores</title>
+    <link>https://shurafo451.github.io/ecosectores/</link>
+    <description>Novedades de EcoSectores, una web divulgativa sobre sostenibilidad en la agricultura, la industria y los servicios.</description>
+    <language>es</language>
+    <lastBuildDate>Thu, 05 Nov 2026 10:00:00 +0100</lastBuildDate>
+    <!-- Dirección de este mismo canal (la recomienda el validador de RSS) -->
+    <atom:link href="https://shurafo451.github.io/ecosectores/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Producir sin agotar el planeta</title>
+      <link>https://shurafo451.github.io/ecosectores/blog.html</link>
+      <guid>https://shurafo451.github.io/ecosectores/blog.html</guid>
+      <pubDate>Mon, 02 Nov 2026 10:00:00 +0100</pubDate>
+      <description>Artículo con prácticas sostenibles en los sectores primario, secundario y terciario: riego por goteo, saca del corcho, autoconsumo solar y transporte eléctrico.</description>
+    </item>
+
+    <item>
+      <title>¿Qué sectores emiten más gases de efecto invernadero?</title>
+      <link>https://shurafo451.github.io/ecosectores/tabla.html</link>
+      <guid>https://shurafo451.github.io/ecosectores/tabla.html</guid>
+      <pubDate>Tue, 03 Nov 2026 10:00:00 +0100</pubDate>
+      <description>Tabla con las emisiones de España en 2024 por sector y actividad, según el inventario oficial del Ministerio para la Transición Ecológica.</description>
+    </item>
+
+    <item>
+      <title>Galería: la sostenibilidad en imágenes</title>
+      <link>https://shurafo451.github.io/ecosectores/galeria.html</link>
+      <guid>https://shurafo451.github.io/ecosectores/galeria.html</guid>
+      <pubDate>Wed, 04 Nov 2026 10:00:00 +0100</pubDate>
+      <description>Fotografías, mapa de imagen, vídeo sobre economía circular con subtítulos, sonidos reales de un aerogenerador y un tractor, y mapa de la planta solar PS10.</description>
+    </item>
+
+    <item>
+      <title>Abiertas las inscripciones a las Jornadas de Producción Sostenible 2026</title>
+      <link>https://shurafo451.github.io/ecosectores/formulario.html</link>
+      <guid>https://shurafo451.github.io/ecosectores/formulario.html</guid>
+      <pubDate>Thu, 05 Nov 2026 10:00:00 +0100</pubDate>
+      <description>Talleres sobre economía circular, eficiencia energética, agricultura sostenible y movilidad eléctrica del 14 al 18 de diciembre.</description>
+    </item>
+  </channel>
+</rss>
