@@ -1,0 +1,150 @@
+/* Hoja de estilos básica de EcoSectores.
+   Solo da un aspecto mínimo; el diseño completo se hará en la práctica de CSS. */
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: #222222;
+  background-color: #f4f8f1;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 960px;
+  line-height: 1.5;
+}
+
+/* Cabecera y pie */
+header,
+footer {
+  background-color: #e3efdc;
+  padding: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.nombre-sitio {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 0;
+}
+
+/* Menú de navegación */
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+/* Página actual del menú */
+nav a.actual {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+}
+
+/* Enlaces */
+a {
+  color: #0b5394;
+}
+
+a:hover {
+  color: #c62828;
+}
+
+/* Encabezados */
+h1,
+h2 {
+  color: #2e7d32;
+}
+
+/* Imágenes y contenido multimedia: nunca más anchos que su contenedor */
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 1rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #444444;
+}
+
+/* Galería: miniaturas una al lado de otra */
+.galeria figure {
+  display: inline-block;
+  width: 280px;
+  margin: 0.5rem;
+  vertical-align: top;
+}
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #333333;
+}
+
+thead th,
+tfoot td {
+  background-color: #dcedc8;
+}
+
+caption {
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+/* Formulario */
+fieldset {
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+legend {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+form p {
+  margin: 0.8rem 0;
+}
+
+.obligatorio {
+  color: #c62828;
+}
+
+/* Citas y texto preformateado del blog */
+blockquote {
+  border-left: 4px solid #2e7d32;
+  margin-left: 0;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+pre {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 1rem;
+  overflow-x: auto;
+}
