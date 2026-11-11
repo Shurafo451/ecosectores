@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" font-family="Verdana, Arial, sans-serif" text-anchor="middle">
+  <title>Ciclo de la economía circular</title>
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2e7d32"/>
+    </marker>
+  </defs>
+  <rect width="600" height="600" fill="#ffffff"/>
+
+  <!-- Flechas entre etapas: una flecha que se repite girando 60 grados -->
+  <g fill="none" stroke="#2e7d32" stroke-width="6" marker-end="url(#flecha)">
+    <path d="M371.7 113.3 A200 200 0 0 1 425.9 144.6"/>
+    <path d="M371.7 113.3 A200 200 0 0 1 425.9 144.6" transform="rotate(60 300 300)"/>
+    <path d="M371.7 113.3 A200 200 0 0 1 425.9 144.6" transform="rotate(120 300 300)"/>
+    <path d="M371.7 113.3 A200 200 0 0 1 425.9 144.6" transform="rotate(180 300 300)"/>
+    <path d="M371.7 113.3 A200 200 0 0 1 425.9 144.6" transform="rotate(240 300 300)"/>
+    <path d="M371.7 113.3 A200 200 0 0 1 425.9 144.6" transform="rotate(300 300 300)"/>
+  </g>
+
+  <!-- Etapas -->
+  <g stroke="#1b5e20" stroke-width="3">
+    <circle cx="300" cy="100" r="64" fill="#c8e6c9"/>
+    <circle cx="473.2" cy="200" r="64" fill="#a5d6a7"/>
+    <circle cx="473.2" cy="400" r="64" fill="#b2dfdb"/>
+    <circle cx="300" cy="500" r="64" fill="#80cbc4"/>
+    <circle cx="126.8" cy="400" r="64" fill="#dcedc8"/>
+    <circle cx="126.8" cy="200" r="64" fill="#c5e1a5"/>
+  </g>
+
+  <g font-size="17" fill="#1b2a1b">
+    <text x="300" y="96">Diseño</text>
+    <text x="300" y="117">ecológico</text>
+    <text x="473.2" y="196">Producción</text>
+    <text x="473.2" y="217">eficiente</text>
+    <text x="473.2" y="406">Distribución</text>
+    <text x="300" y="496">Consumo</text>
+    <text x="300" y="517">responsable</text>
+    <text x="126.8" y="396">Reutilizar</text>
+    <text x="126.8" y="417">y reparar</text>
+    <text x="126.8" y="206">Reciclaje</text>
+  </g>
+
+  <!-- Centro -->
+  <text x="300" y="292" font-size="32" font-weight="bold" fill="#2e7d32">Economía</text>
+  <text x="300" y="332" font-size="32" font-weight="bold" fill="#2e7d32">circular</text>
+</svg>
